@@ -3,7 +3,7 @@
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-  height: fit-content; /* Ensures it doesn't stretch unnecessarily */
+  height: fit-content;
 }
 
 .metrics-container h3 {
@@ -23,39 +23,12 @@
   color: white;
 }
 
-/* Specific colors for each card */
 .metric-card.revenue { background: linear-gradient(to right, #26a69a, #00897b); }
 .metric-card.orders { background: linear-gradient(to right, #42a5f5, #1e88e5); }
 .metric-card.popular { background: linear-gradient(to right, #ffca28, #ffb300); }
 
-
-.metric-card:last-child {
-  margin-bottom: 0;
-}
-
-.metric-icon {
-  font-size: 32px;
-  margin-right: 20px;
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.metric-text {
-  display: flex;
-  flex-direction: column;
-}
-
-.metric-value {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.metric-label {
-  font-size: 14px;
-  opacity: 0.9;
-}
+.metric-card:last-child { margin-bottom: 0; }
+.metric-icon { font-size: 32px; margin-right: 20px; background: rgba(255, 255, 255, 0.2); border-radius: 50%; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; }
+.metric-text { display: flex; flex-direction: column; }
+.metric-value { font-size: 24px; font-weight: bold; }
+.metric-label { font-size: 14px; opacity: 0.9; }
