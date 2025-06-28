@@ -1,0 +1,66 @@
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right, #00796b, #004d40); /* Teal gradient background */
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.home-content {
+  max-width: 600px;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.home-title {
+  font-size: 64px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.home-subtitle {
+  font-size: 20px;
+  margin: 10px 0 40px;
+  opacity: 0.9;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-button {
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid white;
+  transition: all 0.3s ease;
+}
+
+.dashboard-link {
+  background-color: white;
+  color: #00796b;
+}
+
+.dashboard-link:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.guest-link {
+  background-color: transparent;
+  color: white;
+}
+
+.guest-link:hover {
+  background-color: white;
+  color: #00796b;
+}

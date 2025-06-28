@@ -1,0 +1,38 @@
+/* Main container for the guest view */
+.guest-view-container { width: 100%; min-height: 100vh; background-color: #f8f9fa; font-family: 'Poppins', sans-serif; }
+.guest-header { background-color: #00796b; color: white; padding: 40px 20px; text-align: center; }
+.guest-header h1 { margin: 0; font-size: 28px; }
+.guest-header p { margin: 5px 0 0; font-size: 16px; opacity: 0.9; }
+.guest-offers-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; padding: 20px; max-width: 1200px; margin: 0 auto; }
+
+/* Updated styling for the offer card */
+.guest-offer-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* This is important for the image's rounded corners */
+}
+
+/* New style for the image */
+.offer-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover; /* This makes the image cover the area without stretching */
+}
+
+/* New container for the text content */
+.offer-text-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.guest-offer-card h3 { margin: 0 0 10px; color: #333; }
+.offer-description { flex-grow: 1; color: #666; font-size: 14px; line-height: 1.5; }
+.card-footer { display: flex; justify-content: space-between; align-items: center; margin-top: 20px; border-top: 1px solid #f0f0f0; padding-top: 15px; }
+.offer-price { font-size: 20px; font-weight: bold; color: #004d40; }
+.select-button { background-color: #ff9800; color: white; border: none; border-radius: 5px; padding: 10px 15px; font-size: 14px; font-weight: bold; cursor: pointer; transition: background-color 0.2s; }
+.select-button:hover { background-color: #f57c00; }

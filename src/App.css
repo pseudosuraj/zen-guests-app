@@ -1,0 +1,10 @@
+.test-container {
+  width: 100vw; /* 100% of the viewport width */
+  height: 100vh; /* 100% of the viewport height */
+  background-color: #e0f7fa; /* A light cyan color */
+  color: #004d40; /* A dark teal color for the text */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

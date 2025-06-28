@@ -1,0 +1,21 @@
+.action-bar {
+  padding: 20px 30px;
+  background-color: #e8f0fe; /* A very light blue */
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.create-offer-button {
+  background-color: #1877f2; /* Same blue as our login button */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.create-offer-button:hover {
+  background-color: #166fe5;
+}
